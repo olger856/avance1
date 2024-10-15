@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: 'token', url: 'del git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/olger856/avance1.git'
                 }
             }
         }
